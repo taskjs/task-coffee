@@ -1,0 +1,32 @@
+{
+  "name": "task-coffee",
+  "version": "0.1.0",
+  "main": "lib/coffee.js",
+  "description": "Compile CoffeeScript files to JavaScript.",
+  "homepage": "https://github.com/taskjs/task-coffee",
+  "bugs": "https://github.com/taskjs/task-coffee/issues",
+  "author": {
+    "name": "Yuanyan Cao",
+    "email": "yuanyan.cao@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taskjs/task-coffee"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "keywords": [
+    "task"
+  ],
+  "dependencies": {
+    "coffee-script": "^1.7.1",
+    "execution": "^0.1.2",
+    "record": "^0.2.0"
+  },
+  "scripts": {
+    "test": "node test/coffee_test"
+  }
+}
